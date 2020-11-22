@@ -1,0 +1,536 @@
+ /* Big desktop :19200px. */
+@media (min-width: 1500px) and (max-width: 1900px) { 
+    .movies_list .movies_item {
+        width: 304px; 
+        height: 280px; 
+    }
+    .lists .play_banner video { 
+        width: 160%;
+    }
+    .header-action form {
+        min-width: 270px; 
+        max-width: 340px; 
+        margin-right: 65px; 
+    } 
+    .movies_list .movies_item {
+        width: 47%;
+        height: 280px;
+    } 
+    .lists .play_banner video {
+        width: 100%;
+        object-fit: cover;
+    }
+    .reviews_movie .video-content ul li:nth-child(2) {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .titleDesc_wrp h4 { 
+        margin-bottom: 30px;
+    }
+
+}
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) { 
+    .movies_list .movies_item {
+    width: 46%;
+    height: 280px;
+}
+    .lists .play_banner video { 
+        width: 160%;
+    }
+    .header-action form {
+        min-width: 210px;
+        max-width: 340px;
+        margin-right: 40px;
+    }
+    .play_display {
+        max-width: 1038px;
+        min-width: 810px;
+        height: 715px; 
+    }
+    .play_display .bigbanner_wrp h2 { 
+        font-size: 52px; 
+    } 
+    .reviews_movie .video-content ul li:nth-child(2) {
+        margin-left: 70px;
+        margin-right: 55px;
+    }
+
+
+
+ 
+}
+
+/* laptop  :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .movies_list .movies_item {
+    width: 24%;
+    height: 220px;
+}
+    .lists .play_banner video { 
+        width: 160%;
+    }
+    .header-action form {
+        min-width: 165px;
+        max-width: 340px;
+        margin-right: 15px;
+    }
+    .play_display {
+        max-width: 100%;
+        min-width: 100%;
+        height: 715px;
+    }
+    .play_display .bigbanner_wrp h2 { 
+        font-size: 52px; 
+    }
+    .reviews_movie {
+        min-width: 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .reviews_movie .video-content ul li:nth-child(2) {
+        margin-left: 70px;
+        margin-right: 55px;
+    }
+    .play_list {
+        display: block;
+    }
+    .lists .play_banner {
+        width: 32%; 
+        margin-bottom: 12px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .moviess {
+        display: block;
+    }
+    .mr-25 {
+        margin-right: 0px;
+    }
+
+    .movie-info h4 {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .slider-single-item:hover .movie-title {
+        font-size: 16px;
+    }
+
+    .slider-wrapper {
+        margin-left: 0;
+    }
+
+    
+}
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .movies_list .movies_item {
+        width: 235px;
+        height: 280px;
+    }
+    .slider-wrapper {
+        margin-left: 0;
+    }
+    .movie-info h4 {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    .slider-single-item:hover .movie-title {
+        font-size: 16px;
+    }
+
+    .lists .play_banner video { 
+        width:565px;
+    }
+    .header-action form {
+        min-width: 280px;
+        max-width: 340px;
+        margin-right: 15px;
+    }
+    .play_display {
+        max-width: 100%;
+        min-width: 100%;
+        height: 410px;
+    }
+    .play_display .bigbanner_wrp h2 { 
+        font-size: 52px; 
+    }
+    .reviews_movie {
+        min-width: 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .reviews_movie .video-content ul li:nth-child(2) {
+        margin-left: 70px;
+        margin-right: 55px;
+    }
+    .play_list {
+        display: block;
+    }
+    .lists .play_banner {
+        width: 32%; 
+        margin-bottom: 12px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .moviess {
+        display: block;
+    }
+    .mr-25 {
+        margin-right: 0px;
+    }
+    .menu-area nav ul li a { 
+        margin-right: 13px;
+        font-size: 16px;
+    }
+    .header-area {
+        height: 140px; 
+        padding-bottom: 20px;
+    }
+    .header-area .logo-area {
+        margin-bottom: 20px;
+    }
+    .play_display .bigbanner_wrp { 
+        bottom: 40px;
+        left: 30px;
+    }
+    .play_display .bigbanner_wrp h2 {
+        font-size: 48px;
+    }
+
+    .lists .play_banner .play_texts { 
+        left: 20px;
+    }
+    .movies_list .movies_item {
+        width: 24%;
+        height: 200px;
+    }
+    .playList-area {
+        padding-bottom: 70px;
+    }
+    .Releases_movies {
+        margin-bottom: 20px;
+    }
+    .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+
+
+}
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .movies_list .movies_item {
+        width: 235px;
+        height: 280px;
+    }
+    .lists .play_banner video { 
+        width:565px;
+    }
+    .header-action form {
+        min-width: 280px;
+        max-width: 340px;
+        margin-right: 15px;
+    }
+    .play_display {
+        max-width: 100%;
+        min-width: 100%;
+        height: 290px;
+        margin-bottom: 30px;
+    }
+    .play_display .bigbanner_wrp h2 { 
+        font-size: 52px; 
+    }
+    .reviews_movie {
+        min-width: 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+        height: 430px;
+    }
+    .reviews_movie .video-content ul li:nth-child(2) {
+        margin-left: 15px;
+        margin-right: 13px;
+    }
+    .play_list {
+        display: block;
+    }
+    .lists .play_banner {
+        width: 100%;
+        margin-bottom: 5px;
+        display: inline-block;
+        margin-top: 0px;
+    }
+    .moviess {
+        display: block;
+    }
+    .mr-25 {
+        margin-right: 0px;
+    }
+    .menu-area nav ul li a { 
+        margin-right: 13px;
+        font-size: 16px;
+    }
+    .header-area {
+        height: 80px;
+        padding-bottom: 0px;
+    }
+    .header-area .logo-area {
+        margin-bottom: 20px;
+    }
+    .play_display .bigbanner_wrp { 
+        bottom: 40px;
+        left: 30px;
+    }
+    .play_display .bigbanner_wrp h2 {
+        font-size: 30px;
+        padding-right: 40px;
+    }
+    .lists .play_banner .play_texts { 
+        left: 20px;
+    }
+    .movies_list .movies_item {
+        width: 100%;
+        height: 160px;
+        margin-bottom: 0px;
+    }
+    .playList-area {
+        padding-bottom: 70px;
+    }
+    .Releases_movies {
+        margin-bottom: 20px;
+    }
+    .titleDesc_wrp {
+        height: 140px; 
+        padding-left: 35px;
+    }
+    .titleDesc_wrp h4 {
+        font-size: 17px; 
+        line-height: 30px;
+    }
+    .titleDesc_wrp .contents p {
+        font-size: 13px;
+    }
+    .titleDesc_wrp h4 a {
+        font-size: 10px;
+        height: 30px;
+        line-height: 34px;
+        width: 75px;
+        padding: 0;
+    }
+    .reviews_movie .video-content h5 {
+        margin-left: 30px; 
+        font-size: 26px;
+    }
+    .reviews_movie .video-content p {
+        margin-left: 30px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .reviews_movie .video-content ul { 
+        padding-left: 30px; 
+        margin-top: 30px; 
+        padding-top: 10px;
+    }
+    .reviews_movie .video-content ul li a {
+        font-size: 14px;  
+    }
+    .play_display .bigbanner_wrp h4 {
+        font-size: 26px; 
+    }
+    .titleDesc_wrp:after { 
+        width: 5px; 
+    }
+    .n_xs{
+        display: none !important;
+    }
+    .logo-area {
+        text-align: left;
+    }
+    .bars a.bar_icon {
+        font-size: 22px;
+    } 
+    .n_lg{
+        display: block;
+    }
+
+
+    .slider-wrapper {
+        margin-left: 0;
+    }
+
+    .slider-single-item {
+        margin-left: 0;
+    }
+
+
+
+
+
+    .slider-single-item {
+        margin: 140px 0;
+        margin-left: 40px;
+        margin-right: 40px;
+        
+    }
+
+    .slider-area .pr-0 {
+        padding-right: 15px !important;
+    }
+
+
+    .slider-single-item {
+        margin-bottom: 90px;
+        margin-top: 80px;
+    }
+
+    .slider-area {
+        margin-bottom: 0;
+    } 
+    .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.movies_list .movies_item {
+    width: 235px;
+    height: 280px;
+}
+.lists .play_banner video { 
+    width:565px;
+}
+.header-action form {
+    min-width: 280px;
+    max-width: 340px;
+    margin-right: 15px;
+}
+.play_display {
+    max-width: 100%;
+    min-width: 100%;
+    height: 410px;
+    margin-bottom: 30px;
+}
+.play_display .bigbanner_wrp h2 { 
+    font-size: 52px; 
+}
+.reviews_movie {
+    min-width: 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+    height: 485px;
+}
+.reviews_movie .video-content ul li:nth-child(2) {
+    margin-left: 30px;
+    margin-right: 25px;
+}
+.play_list {
+    display: block;
+}
+.lists .play_banner {
+    width: 100%;
+    margin-bottom: 5px;
+    display: inline-block;
+    margin-top: 0px;
+}
+.moviess {
+    display: block;
+}
+.mr-25 {
+    margin-right: 0px;
+}
+.menu-area nav ul li a { 
+    margin-right: 13px;
+    font-size: 16px;
+}
+.header-area {
+    height: 140px; 
+    padding-bottom: 20px;
+}
+.header-area .logo-area {
+    margin-bottom: 20px;
+}
+.play_display .bigbanner_wrp { 
+    bottom: 40px;
+    left: 30px;
+}
+.play_display .bigbanner_wrp h2 {
+    font-size: 48px;
+}
+
+.lists .play_banner .play_texts { 
+    left: 20px;
+}
+.movies_list .movies_item {
+    width: 49%;
+    height: 160px;
+    margin-bottom: 0px;
+}
+.playList-area {
+    padding-bottom: 70px;
+}
+.Releases_movies {
+    margin-bottom: 20px;
+}
+.titleDesc_wrp {
+    height: 140px; 
+    padding-left: 35px;
+}
+.titleDesc_wrp h4 {
+    font-size: 24px; 
+}
+.titleDesc_wrp .contents p {
+    font-size: 20px;
+}
+.titleDesc_wrp h4 a { 
+    font-size: 16px; 
+    height: 45px;
+    line-height: 47px; 
+    width: 120px; 
+}
+.reviews_movie .video-content h5 {
+    margin-left: 30px; 
+}
+.reviews_movie .video-content p {
+    margin-left: 30px;
+    font-size: 22px; 
+}
+.reviews_movie .video-content ul { 
+    padding-left: 30px; 
+    margin-top: 30px; 
+    padding-top: 10px;
+}
+.reviews_movie .video-content ul li a {
+    font-size: 20px;  
+}
+
+.titleDesc_wrp:after { 
+    width: 15px; 
+}
+
+.titleDesc_wrp .contents p {
+	font-size: 14px;
+	margin-top: 30px;
+}
+.titleDesc_wrp::after {
+	width: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+}
